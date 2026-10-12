@@ -1,0 +1,18 @@
+# Exclude build artifacts
+*.min.css linguist-generated
+
+src/**/*.js linguist-detectable
+
+node_modules/* linguist-vendored
+package-lock.json linguist-generated
+*.html linguist-vendored
+go.sum linguist-generated
+
+*.js linguist-detectable
+
+yarn.lock linguist-generated
+
+*.md linguist-documentation
+public/index.html linguist-vendored
+Cargo.lock linguist-generated
+# eof 30ecbac7
