@@ -1,0 +1,8 @@
+build/
+*.log
+*.tgz
+yarn-error.log*
+coverage/
+.next/
+node_modules/
+_site/
